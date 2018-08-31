@@ -1,0 +1,16 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<m:MaterialTextBox width="500px" ui:field="ct1"  label="Enter Quiz ID" iconType="ASSIGNMENT" />
+		<m:MaterialTextBox width="500px" ui:field="ct2"  label="Enter number of questions" iconType="QUESTION_ANSWER"/>
+		<m:MaterialTextBox width="500px" ui:field="ct3"  label="Enter the time of quiz in minutes" iconType="SCHEDULE" />
+		<m:MaterialButton  width="500px" ui:field="cb1" text="Click here to confirm" waves="LIGHT" textColor="WHITE" size="LARGE"/>
+	</g:HTMLPanel>
+</ui:UiBinder> 

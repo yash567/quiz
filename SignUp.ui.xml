@@ -1,0 +1,19 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<m:MaterialTextBox width="400px" ui:field="st1"  label="FirstName" iconType="FACE"  />
+		<m:MaterialTextBox width="400px" ui:field="st2"  label="LastName" iconType="FACE"/>
+		<m:MaterialTextBox width="400px" ui:field="st3"  label="PhoneNumber" iconType="PHONE" />
+		<m:MaterialTextBox width="400px" ui:field="st4" type="EMAIL" label="Email" iconType="EMAIL"/>
+		<m:MaterialTextBox width="400px" ui:field="st5" type="PASSWORD" label="Password" iconType="ACCOUNT_CIRCLE"/>
+		<m:MaterialTextBox width="400px" ui:field="st6" type="PASSWORD" label="Re-Enter-Password" iconType="ACCOUNT_CIRCLE"/>
+		<m:MaterialButton width="400px" ui:field="sb1" text="Click here to Signup" waves="LIGHT" textColor="WHITE" size="LARGE" />
+	</g:HTMLPanel>
+</ui:UiBinder> 

@@ -1,0 +1,16 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+	<m:MaterialTextBox  width="400px" ui:field="t1"  label="username" iconType="FACE" />
+    <m:MaterialTextBox width="400px" ui:field="t2"  type="PASSWORD" label="password" iconType="ACCOUNT_CIRCLE"  />
+	<m:MaterialButton width="200px" ui:field="login" iconPosition="LEFT" text="log In" waves="LIGHT" textColor="WHITE" size="LARGE"/>
+	
+	</g:HTMLPanel>
+</ui:UiBinder> 

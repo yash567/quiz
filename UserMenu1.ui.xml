@@ -1,0 +1,15 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+	<m:MaterialTextBox active="true" readOnly="true" ui:field="t1" ></m:MaterialTextBox><br></br>
+ <br></br>
+		
+	<m:MaterialButton text="Result" ui:field="b2" waves="DEFAULT" backgroundColor="WHITE" textColor="BLACK"/>
+ </g:HTMLPanel>
+</ui:UiBinder> 

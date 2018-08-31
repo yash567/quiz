@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel><br></br>
+ <br></br>
+ <m:MaterialTextBox  readOnly="true" width="80px" ui:field="t3"/>
+	<m:MaterialTextBox active="true" readOnly="true" ui:field="t2" ></m:MaterialTextBox><m:MaterialTextBox readOnly="true" active="true" ui:field="t1" ></m:MaterialTextBox><br></br>
+ <br></br>
+		
+		<m:MaterialRadioButton name="r" ui:field="r1"  text="Red" />
+ <m:MaterialRadioButton name="r" ui:field="r2" text="Yellow" />
+ <m:MaterialRadioButton name="r" ui:field="r3" text="Green" />
+ <m:MaterialRadioButton name="r" ui:field="r4" text="Brown"/><br></br>
+ <br></br>
+ <m:MaterialButton  width="200px" ui:field="b1"  text="Next" waves="DEFAULT" textColor="WHITE"/>
+ <m:MaterialButton  width="200px" ui:field="b2"  text="Finish" waves="DEFAULT" textColor="WHITE"/>
+ <m:MaterialButton  width="200px" ui:field="b3"  text="Previous" waves="DEFAULT" textColor="WHITE"/>
+ 
+	</g:HTMLPanel>
+</ui:UiBinder> 

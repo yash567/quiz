@@ -1,0 +1,23 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+	xmlns:d="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+	<d:MaterialPanel width="600px">
+	<d:MaterialTextArea readOnly="true" text="Please enter your Question with 4 options :" ui:field="t6"></d:MaterialTextArea>
+	<d:MaterialTextBox label="Type your question here" ui:field="t5"></d:MaterialTextBox>
+		<d:MaterialTextBox placeholder="Option 1" label="Write your option" active="true" ui:field="t1" ></d:MaterialTextBox>
+		<d:MaterialTextBox placeholder="Option 2" label="Write your option" active="true" ui:field="t2"></d:MaterialTextBox>
+		<d:MaterialTextBox placeholder="Option 3" label="Write your option" active="true" ui:field="t3"></d:MaterialTextBox>
+		 <d:MaterialTextBox placeholder="Option 4" label="Write your option" active="true" ui:field="t4"></d:MaterialTextBox>
+		 <d:MaterialTextBox placeholder="Answer" label="Write Answer" active="true" ui:field="t7"></d:MaterialTextBox>
+		<d:MaterialButton text="SUBMIT" waves="LIGHT" iconType="POLYMER" iconPosition="RIGHT" size="LARGE" ui:field="b1"></d:MaterialButton>
+		<d:MaterialButton text="Finish quiz" waves="LIGHT" iconType="POLYMER" iconPosition="RIGHT" size="LARGE" ui:field="b2"></d:MaterialButton>
+		<g:Button styleName="{style.important}" ui:field="button" /> </d:MaterialPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 
